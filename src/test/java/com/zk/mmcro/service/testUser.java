@@ -21,7 +21,7 @@ public class testUser extends baseTest{
 	
 	@Test
 	public void testRegister() {
-		User user = new User("ahu","0913",1);
+		User user = new User("ahu232","0913",1);
 		int register = service.register(user);
 		assertTrue(register>0);
 	}
